@@ -1,0 +1,18 @@
+h1{
+    color: blue;
+}
+p{
+    color: green
+}
+p>strong{
+    color: red;
+}
+div{
+    color: green;
+}
+div>mark{
+    color: green;
+}
+div>strong{
+    color: orangered;
+}

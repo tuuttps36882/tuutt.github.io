@@ -1,0 +1,21 @@
+
+.form-content{
+    background-color: #cccc;
+    width: 250px;
+}
+
+.form-group {
+    padding-left: 16px;
+}
+
+.name {
+    padding: 8px 0px;
+}
+
+input.form {
+    margin-bottom: 8px;
+}
+
+.form-lone {
+    margin-top: 8px;
+}

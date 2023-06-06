@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 2 lab 9</title>
+    <style>
+        .form{
+            width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px gray;
+        }
+        input.input{
+            width: 400px;
+        }
+
+        #list{
+            width: 400px;
+            height: 32px;
+        }
+
+        #note{
+            width: 400px;
+
+        }
+        .name{
+            margin-bottom: 8px;
+            font-variant: small-caps;
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="#" method="post" enctype="multipart/form-data" class="form">
+        <div class="name">
+        HỌ VÀ TÊN:<br>
+        <input type="text" class="input"><br>
+        </div>
+        <div class="name">
+        GIỚI TÍNH:
+        <label for="">
+           <input type="radio" checked="checked">NAM
+        </label>
+        <label for="">
+            <input type="radio">NỮ
+         </label><br>
+        </div>
+
+        <div class="name">
+         HÌNH ẢNH:<br>
+         <input type="file" value="Choose File"><br>
+        </div>
+
+        <div class="name">
+         QUỐC TỊCH:<br>
+         <select name="list" id="list">
+            <option value="United States">United States</option>
+            <option value="Viet Nam">Viet Nam</option>
+            <option value="Lao">Lao</option>
+            <option value="CamPuChia">CamPuChia</option>
+            <option value="DuBai">DuBai</option>
+            <option value="ThaiLan">ThaiLan</option>
+         </select><br>
+        </div>
+
+        <div class="name">
+         SỞ THÍCH:<br>
+         <label for=""><input type="checkbox" checked="checked">THỂ THAO</label>
+         <label for=""><input type="checkbox">DU LỊCH</label>
+         <label for=""><input type="checkbox">ÂM NHẠC</label>
+         <label for=""><input type="checkbox">ẨM THỰC</label>
+        </div>
+
+        <div class="name">
+         GHI CHÚ:<br>
+         <textarea name="ghi chú" id="note" cols="50" rows="10"></textarea><br>
+        </div>
+
+         <hr>
+         <input type="submit" value="Đăng ký">
+         <input type="reset" value="Nhập lại">
+    </form>
+</body>
+</html>

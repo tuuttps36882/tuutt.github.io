@@ -1,0 +1,169 @@
+#container{
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+ }
+ 
+ header{
+    background: url(img/hinh1.png);
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 25%
+ }
+ .vmenu{
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px white;
+}
+
+.vmenu a{
+    background: url('img/pngegg.png') no-repeat 10px center;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: large;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+
+.vmenu a:hover{
+    background: url(img/pngegg1.png) no-repeat 10px center;
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+
+.body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container header{
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 25%;
+}
+
+
+header .company-info{
+    top: 170px;
+    left: 380px;
+    position: absolute;
+    text-shadow: 0 0 50px orangered;
+}
+
+header .company-info h1{
+    margin: 0;
+    padding: 0;
+    font-variant: small-caps;
+    color: white;
+    font-size: 35px;
+    border-bottom: 1px dotted red;
+    text-shadow: 0 0 5px orangered;
+    text-align: center;
+}
+
+.container nav{
+    line-height: 40px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+.container article{
+    min-height: 400px;
+    width: 75%;
+    background-color: white;
+    float: left;
+}
+
+.container aside{
+    width: 25%;
+    min-height: 400px;
+    background-color: white;
+    float: right;
+}
+
+.container footer{
+    border-top: 5px double orangered;
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+}
+
+.container nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.container nav a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+.menu>ul>li {
+    display: inline-block;
+    position: relative;
+}
+.menu>ul>li>a {
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    color: white;
+    font-size: larger;
+    padding: 0 10px;
+    line-height: 40px;
+}
+.menu>ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+.menu>ul>li>a:hover {
+    color: yellow;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+}
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: orange;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.menu ul ul a:hover{
+    background-color: orangered;
+    color: white;
+}

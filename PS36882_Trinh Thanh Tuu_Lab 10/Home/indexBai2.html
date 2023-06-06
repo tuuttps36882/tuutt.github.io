@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 2 Lab 10</title>
+    <link rel="stylesheet" href="/css/Bai1.css">
+</head>
+<body>
+    <form>
+        <div class="form-group">
+            <label>Họ và tên</label><br>
+            <input type="text" class="form-control">
+        </div>
+        <fieldset class="form-group">
+            <legend>Giới tính</legend> <!------là tag định nghĩa một chú thích cho fieldset-->
+            <input type="radio">Nam
+            <input type="radio">Nữ
+        </fieldset>
+        <div class="form-group">
+            <label>Ngày sinh</label><br>
+            <input type="date" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Điểm</label><br>
+            <input type="number" min="0" max="10" step="0.25" class="form-control">
+        </div>
+        <fieldset class="form-group">
+            <legend>Sở thích</legend> <!------là tag định nghĩa một chú thích cho fieldset-->
+            <input type="checkbox">Thể thao
+            <input type="checkbox">Du lịch
+            <input type="checkbox">Âm nhạc
+            <input type="checkbox">Ẩm thực
+        </fieldset>
+        <div class="form-group">
+            <label>Ghi chú</label><br>
+            <textarea rows="5" cols="30"></textarea>
+        </div>
+        <hr>
+        <div class="form-group">
+            <button class="form-button" tabindex="3">Đăng ký</button>
+            <button class="form-button" tabindex="3">Nhập lại</button>
+         </div>
+    </form>
+</body>
+</html>

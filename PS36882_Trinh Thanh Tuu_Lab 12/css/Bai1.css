@@ -1,0 +1,14 @@
+table {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    width: 250px;
+    padding-right: 16px;
+    height: 150px;
+}
+
+h4 {
+    margin-bottom: -8px;
+}

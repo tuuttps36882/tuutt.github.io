@@ -1,0 +1,79 @@
+#container{
+   width: 960px;
+   height: auto;
+   margin: 0 auto;
+   position: relative;
+}
+
+header{
+    width: 100%;
+    height: 300px;    
+    position: relative;
+}
+
+header .top-right{ 
+    width: 300px;
+    height: 40px;
+    background-color: orangered;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 30px ;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+header .top-right a{
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+    padding: 5px;
+}
+
+header .top-right a:hover{
+    text-decoration: underline;
+    font-weight:bold;
+}
+
+header .company-info{
+    width: 300px;
+    height: 70px;
+    position: absolute;
+    bottom: 50px;
+    left: 15px;
+    box-shadow: 0 0 5px orangered;
+}
+
+header .company-info h1{
+    margin: 0;
+    padding: 0;
+    font-variant: small-caps;
+    color: white;
+    font-size: 35px;
+    border-bottom: 1px dotted red;
+    text-shadow: 0 0 5px orangered;
+    text-align: center;
+}
+
+header .company-info h3{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-variant: small-caps;
+    color:orangered
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: orangered;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    margin: 0 10px;
+}
